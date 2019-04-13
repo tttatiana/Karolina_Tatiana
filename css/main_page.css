@@ -1,0 +1,49 @@
+.bg-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../resources/images/countries/BG2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image svg {
+  width: 90%;
+  height: 90%;
+  z-index: 10;
+}
+.bg-image svg path {
+  fill: white;
+  stroke: #666666;
+  stroke-width: 1px;
+  transition: fill 0.5s;
+}
+
+.bg-image svg path:hover {
+  fill: tomato;
+}
+
+.fixed-text {
+  display: block;
+  width: 400px;
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6em;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 3px 3px 12px #a4a4a4;
+}
+
+.ft-title {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-weight: 600;
+}

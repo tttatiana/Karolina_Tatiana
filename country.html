@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/countries.css">
+  <title></title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/country-get.js"></script>
+
+  <!-- Navbar -->
+  <nav>
+    <a class="nav-logo" href="main_page.html">
+      <img src="resources/images/globe1.png" alt="">
+    </a>
+
+    <div class="nav-right">
+      <a href="#history">History</a>
+      <a href="#interesting">Insteresting</a>
+      <a href="#stereotypes">Stereotypes</a>
+      <a href="#news">News</a>
+    </div>
+  </nav>
+
+  <!-- video clip-->
+  <div class="video-container">
+    <video autoplay loop muted plays-inline fixed>
+      <source src="" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Top part-->
+  <!-- container over video-->
+  <div class="vc-overlay">
+    <span class="vco-title" id="country-title"></span>
+  </div>
+
+  <!--block that put everything in the middle -->
+  <div class="main-part">
+
+    <div class="general-text">
+      <a class="page-anchor" id="history"></a>
+      <span class="gt-title" id="country-history"></span>
+      <span class="gt-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium adipisci aliquam assumenda consectetur dolorem earum eius excepturi illo illum iste iure labore laboriosam modi molestias mollitia nam nesciunt nulla pariatur porro quaerat quia quidem repudiandae, similique totam unde veritatis! Accusantium aspernatur at dicta doloremque, dolores, earum, excepturi itaque maxime nobis nulla rem similique suscipit voluptatem. Accusamus amet architecto cum, dicta doloribus enim et harum, in, libero minus modi non nulla obcaecati rerum sequi sunt totam veritatis. Animi cupiditate dolor explicabo id in, ipsum laudantium magni, ratione totam unde veritatis, voluptatibus! A, ab aut beatae blanditiis consequuntur, cum delectus deserunt dignissimos dolorem dolorum ea eius eligendi eos est facere fuga ipsum iste itaque maiores mollitia nobis non officia officiis quia quos repellendus sequi sint sunt tempora veniam. Ducimus illum laboriosam nesciunt reprehenderit tempora! Adipisci, at dolorem fuga laborum obcaecati velit veritatis! Aliquid cupiditate, doloribus earum enim, esse ex excepturi fuga id illum impedit ipsa molestias nihil odio perferendis quae quas qui quo recusandae reprehenderit repudiandae soluta temporibus totam! Adipisci asperiores ex iste mollitia. Ab amet assumenda cupiditate deleniti earum enim fugiat maxime nobis numquam quaerat, quos repellendus saepe voluptate? Asperiores consequuntur ex illum, perspiciatis possimus repudiandae rerum sint voluptas!</span>
+    </div>
+
+    <div class="pic-collage">
+      <a class="page-anchor" id="interesting"></a>
+      <span class="pc-title" id="country-interesting"></span>
+      <div class="pc-divider">
+
+        <div class="pc-d-item">
+          <div class="pc-d-i-image">
+          </div>
+          <span class="pc-d-i-title">Lorem ipsum</span>
+          <span class="pc-d-i-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti deserunt minima odio porro praesentium quo veniam veritatis? Adipisci debitis dignissimos doloremque expedita facere molestias unde voluptates! Dicta, distinctio!</span>
+        </div>
+
+        <div class="pc-d-item">
+          <div class="pc-d-i-image">
+          </div>
+          <span class="pc-d-i-title">Lorem ipsum</span>
+          <span class="pc-d-i-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti deserunt minima odio porro praesentium quo veniam veritatis? Adipisci debitis dignissimos doloremque expedita facere molestias unde voluptates! Dicta, distinctio!</span>
+        </div>
+
+        <div class="pc-d-item">
+          <div class="pc-d-i-image">
+          </div>
+          <span class="pc-d-i-title">Lorem ipsum</span>
+          <span class="pc-d-i-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti deserunt minima odio porro praesentium quo veniam veritatis? Adipisci debitis dignissimos doloremque expedita facere molestias unde voluptates! Dicta, distinctio!</span>
+        </div>
+
+        <div class="pc-d-item">
+          <div class="pc-d-i-image">
+          </div>
+          <span class="pc-d-i-title">Lorem ipsum</span>
+          <span class="pc-d-i-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti deserunt minima odio porro praesentium quo veniam veritatis? Adipisci debitis dignissimos doloremque expedita facere molestias unde voluptates! Dicta, distinctio!</span>
+        </div>
+
+        <div class="pc-d-item">
+          <div class="pc-d-i-image">
+          </div>
+          <span class="pc-d-i-title">Lorem ipsum</span>
+          <span class="pc-d-i-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti deserunt minima odio porro praesentium quo veniam veritatis? Adipisci debitis dignissimos doloremque expedita facere molestias unde voluptates! Dicta, distinctio!</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="general-text">
+      <a class="page-anchor" id="stereotypes"></a>
+      <span class="gt-title">Some common stereotypes</span>
+      <!--<span class="gt-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium adipisci aliquam assumenda consectetur dolorem earum eius excepturi illo illum iste iure labore laboriosam modi molestias mollitia nam nesciunt nulla pariatur porro quaerat quia quidem repudiandae, similique totam unde veritatis! Accusantium aspernatur at dicta doloremque, dolores, earum, excepturi itaque maxime nobis nulla rem similique suscipit voluptatem. Accusamus amet architecto cum, dicta doloribus enim et harum, in, libero minus modi non nulla obcaecati rerum sequi sunt totam veritatis. Animi cupiditate dolor explicabo id in, ipsum laudantium magni, ratione totam unde veritatis, voluptatibus! A, ab aut beatae blanditiis consequuntur, cum delectus deserunt dignissimos dolorem dolorum ea eius eligendi eos est facere fuga ipsum iste itaque maiores mollitia nobis non officia officiis quia quos repellendus sequi sint sunt tempora veniam. Ducimus illum laboriosam nesciunt reprehenderit tempora! Adipisci, at dolorem fuga laborum obcaecati velit veritatis! Aliquid cupiditate, doloribus earum enim, esse ex excepturi fuga id illum impedit ipsa molestias nihil odio perferendis quae quas qui quo recusandae reprehenderit repudiandae soluta temporibus totam! Adipisci asperiores ex iste mollitia. Ab amet assumenda cupiditate deleniti earum enim fugiat maxime nobis numquam quaerat, quos repellendus saepe voluptate? Asperiores consequuntur ex illum, perspiciatis possimus repudiandae rerum sint voluptas!</span>-->
+      <div class="gt-list">
+        <div class="gt-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum eligendi libero neque quibusdam
+          quidem vitae? Commodi ducimus id iure magni. Ad adipisci fugiat impedit iure quos reiciendis, ullam.
+        </div>
+        <div class="gt-description">Commodi expedita ipsa maiores nemo quae quis, quisquam sint soluta veniam. Architecto, corporis esse
+          expedita facere illo illum ipsam iure libero, nemo officiis repellendus reprehenderit sunt vero! Ducimus,
+          perspiciatis voluptate!
+        </div>
+        <div class="gt-description">Alias aperiam architecto asperiores assumenda atque beatae blanditiis cum cupiditate deleniti dignissimos
+          doloremque eligendi et iste laboriosam, magni maxime molestias nostrum officia quisquam reiciendis saepe
+          sapiente sunt vel velit voluptatibus!
+        </div>
+        <div class="gt-description">Accusantium at dicta dignissimos eius expedita fuga harum ipsum laboriosam neque nesciunt nostrum, officia
+          quibusdam rem saepe similique sint soluta veritatis voluptatibus. Aliquid deleniti deserunt inventore quo quod
+          repellendus soluta?
+        </div>
+        <div class="gt-description">Ad aliquam, architecto, assumenda at atque commodi distinctio dolorem enim ex illo magni maiores molestias
+          nam nulla, officia quas quidem quos reprehenderit rerum suscipit temporibus ullam voluptate. Consequuntur,
+          quasi, recusandae.
+        </div>
+      </div>
+    </div>
+
+    <div class="general-text">
+      <a class="page-anchor" id="news"></a>
+      <span class="gt-title" id="country-news"></span>
+      <span class="gt-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at corporis in iste, iusto, libero odio odit sapiente sequi, soluta ut velit. Ab debitis impedit labore magnam maxime nemo, sunt tenetur. Architecto aspernatur consequuntur deleniti dolore dolorem eaque enim error, est explicabo itaque nihil, numquam quo reiciendis repellat tenetur vero voluptatibus. Natus nemo non quisquam quod. Autem blanditiis dolore dolorum libero minima molestiae suscipit voluptate? Amet atque error ex fugit, in iste iusto laboriosam maiores minus necessitatibus odio possimus, praesentium quaerat quo reprehenderit sint suscipit totam vitae, voluptas voluptatem. Culpa dolorum exercitationem facere ipsa laudantium magni nihil odit quae, temporibus!
+      </span>
+    </div>
+  </div>
+</body>
+</html>
