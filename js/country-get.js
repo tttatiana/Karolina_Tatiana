@@ -31,7 +31,7 @@ $(function () {
         {
             //file doesn't exist
             //https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage?page=2&tab=Votes
-            $(window).attr("location","main_page.html");
+            $(window).attr("location","index.html");
         },
         success: function()
         {
